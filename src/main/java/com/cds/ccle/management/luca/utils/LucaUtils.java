@@ -17,7 +17,8 @@ public class LucaUtils {
 		if (validateString == null || validateString.trim().isEmpty()) {
 			return true;
 		}
-		return false;
+		return false;//comment
+
 	}
 	
 	public static boolean isNullOrZero(Integer validateInteger) {
